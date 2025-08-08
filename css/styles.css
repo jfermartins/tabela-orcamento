@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: url("https://images.unsplash.com/photo-1555949963-aa79dcee981d?auto=format&fit=crop&w=1470&q=80")
+    no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: rgba(10, 26, 47, 0.95);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00f7ff44;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #00baff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border-bottom: 1px solid #0a3c5e;
+  padding: 12px 8px;
+  text-align: left;
+}
+
+th {
+  color: #00baff;
+}
+
+.contact {
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+.contact i {
+  color: #00baff;
+  margin-right: 10px;
+}
+
+.contact-qr {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: -5px;
+  margin-top: 30px;
+}
+
+.qr-container {
+  flex-shrink: 0;
+}
+
+.qr {
+  width: 120px;
+}
+
+a {
+  color: #00baff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+  table,
+  th,
+  td {
+    font-size: 14px;
+  }
+}
